@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/minilogo.png" sizes="32x32" type="image/png">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <link rel="icon" href="/minilogo.png" sizes="32x32" type="image/png">
 
   <title>Santhosh Kumar | Web Developer Portfolio – Coimbatore</title>
 
@@ -29,6 +32,11 @@
   <meta name="twitter:description" content="Frontend Developer skilled in WordPress, React, HTML, CSS, Bootstrap. Based in Coimbatore with 2+ years experience." />
   <meta name="twitter:image" content="https://sitedesign.in/preview.jpg" /> <!-- Optional -->
 
+ <script>
+  if (localStorage.theme === 'dark') {
+    document.documentElement.classList.add('dark');
+  }
+</script>
 
   </head>
   <body>
@@ -36,3 +44,5 @@
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+
+
