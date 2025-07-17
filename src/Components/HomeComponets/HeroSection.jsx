@@ -8,7 +8,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import Resume from "../../assets/resume/Santhoshkumar.pdf";
 import Title from "../Title";
-import image1 from 'src/assets/images/main.png'
+import image1 from '../../assets/images/main.png';
+
 
 function HeroSection() {
   const { controls, animationVariants } = useTheme();

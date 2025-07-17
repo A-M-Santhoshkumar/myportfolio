@@ -3,11 +3,12 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Title from "../Components/Title";
 import { useTheme } from "../context/ThemeContext";
-import img1 from '../assets/imagesabout/Front-End.png'
+import img1 from '../assets/images/about/Front-End.png'
 import img2 from '../assets/images/about/UIUX.png'
 import img3 from '../assets/images/about/Tools.png'
 import img4 from '../assets/images/about/Deployment.png'
-import mainimage from '../assets/images/about/about-me.png' 
+import mainimage from '../assets/images/about/about-me.png'
+
 
 const info = [
   {
